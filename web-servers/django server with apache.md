@@ -2,7 +2,7 @@
 
 After doing an excellent project we often float in big thoughts on how to do the deployment and where. As a noob, this kills our time a lot. That's why I wanted to find a way how I can deploy any Django project easily.
 
-I have used Amazon EC2 instance - t2.micro, p2.xlarge and g3s.xlarge with ubuntu 16.04 distribution of the Linux operating system. But you can do the same to any cloud with a Linux operating system.
+I have used Amazon EC2 instance - `t2.micro, p2.xlarge and g3s.xlarge` with `ubuntu 16.04` distribution of the Linux operating system. But you can do the same to any cloud with a Linux operating system.
 
 To setup, Apache follows this URL. This is a well-written blog from Digital Ocean.
 
@@ -11,7 +11,7 @@ To install environment dependent (within python virtual environment)mod-wsgi do 
 sudo apt-get install apache2-dev
 pip install mod-wsgi
 ```
-Get the environment variable from this command and set it to the apache config file(/etc/apache2/apache2.conf) ( paste it at the last):
+Get the environment variable from this command and set it to the apache config file `(/etc/apache2/apache2.conf)` ( paste it at the last):
 ```
 mod_wsgi-express module-config
 ```
@@ -19,8 +19,8 @@ Check the apache config test and if it says syntax ok then you are good to go:
 ```
 sudo apache2ctl configtest
 ```
-Now we have to set several permissions for different folders including project folder, media folder, static folder and also for default database DB.sqlite3 (if you are using it).
-The project directory that holds manage.py file have to give permissions and also change ownership :
+Now we have to set several permissions for different folders including project folder, media folder, static folder and also for default database `DB.sqlite3` (if you are using it).
+The project directory that holds `manage.py` file have to give permissions and also change ownership :
 ```
 sudo chmod 775 <project_folder_name>
 sudo chown :www-data <project_folder_name>
@@ -30,7 +30,7 @@ Database SQLite has to do the same (if you use this in production):
 sudo chown ubuntu:www-data db.sqlite3 
 sudo chmod g+w db.sqlite3
 ```
-For serving media and static files in production, it is a good practice that we serve it from /var/www. This is preferred and said way. So we have to make a directory there.
+For serving media and static files in production, it is a good practice that we serve it from `/var/www`. This is preferred and said way. So we have to make a directory there.
 ```
 mkdir <project_folder_name>
 ```
@@ -40,14 +40,14 @@ sudo chown www-data:www-data -R <project_folder_name>
 cd <project_folder_name>
 ```
 Create media and static folder in the directory using the same mkdir command.
-To change ownership and give permissions have to do the following to static/media folders:
+To change ownership and give permissions have to do the following to `static/media` folders:
 ```
 sudo chown ubuntu:www-data -R media 
 sudo chmod g+w media 
 sudo chown ubuntu:www-data -R static
 sudo chmod g+w static
 ```
-To configure the default configuration file at /etc/apache2/sites-available/000-default.conf (past it at the last before <virtualhost>):
+To configure the default configuration file at `/etc/apache2/sites-available/000-default.conf` (past it at the last before <virtualhost>):
   
     Alias /static/ /var/www/<project_folder_name>/static/
      <Directory /var/www/<project_folder_name>/static>
@@ -66,7 +66,7 @@ To configure the default configuration file at /etc/apache2/sites-available/000-
      WSGIProcessGroup <arbitrary_name>
      WSGIScriptAlias / /<path_to_>wsgi.py
 
-Make sure that the file has these permission set in /var/www directory:
+Make sure that the file has these permission set in `/var/www` directory:
 ```
 drwxr-xr-x => <project_directory>
 drwxrwx--- => media
