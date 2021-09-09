@@ -80,3 +80,4 @@ docker container logs --details container-id
 2. [How To Remove Docker Containers, Images, Volumes, and Networks](https://linuxize.com/post/how-to-remove-docker-images-containers-volumes-and-networks/#:~:text=%2D%2Drm%20flag.-,Removing%20one%20or%20more%20containers,containers%20you%20want%20to%20remove.)
 3. [docker push](https://docs.docker.com/engine/reference/commandline/push/)
 4. [A journey through Django and Docker: hands-on production deployment principles and ideas](https://dev.to/zompro/a-journey-through-django-and-docker-hands-on-production-deployment-principles-and-ideas-17a3)
+5. [Dockerizing Django with Postgres, Gunicorn, and Nginx](https://testdriven.io/blog/dockerizing-django-with-postgres-gunicorn-and-nginx/)
