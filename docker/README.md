@@ -75,6 +75,9 @@ To see the log from docker container
 ```
 docker container logs --details container-id
 ```
+```
+cat data_dump.json | docker-compose exec -T app python manage.py loaddata --format=json -
+```
 ## Resources
 1. [How to copy docker images](https://stackoverflow.com/questions/23935141/how-to-copy-docker-images-from-one-host-to-another-without-using-a-repository)
 2. [How To Remove Docker Containers, Images, Volumes, and Networks](https://linuxize.com/post/how-to-remove-docker-images-containers-volumes-and-networks/#:~:text=%2D%2Drm%20flag.-,Removing%20one%20or%20more%20containers,containers%20you%20want%20to%20remove.)
