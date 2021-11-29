@@ -85,3 +85,9 @@ cat data_dump.json | docker-compose exec -T app python manage.py loaddata --form
 4. [A journey through Django and Docker: hands-on production deployment principles and ideas](https://dev.to/zompro/a-journey-through-django-and-docker-hands-on-production-deployment-principles-and-ideas-17a3)
 5. [Dockerizing Django with Postgres, Gunicorn, and Nginx](https://testdriven.io/blog/dockerizing-django-with-postgres-gunicorn-and-nginx/)
 6. [Deploying Django to AWS with Docker and Let's Encrypt](https://testdriven.io/blog/django-docker-https-aws/)
+
+## Issues
+- [Docker fails with OCI runtime create failed](https://dev.to/aheissenberger/docker-fails-with-oci-runtime-create-failed-4e3l)
+- [getting-permission-denied-in-docker-run](https://stackoverflow.com/questions/44687685/getting-permission-denied-in-docker-run)
+- [standard-init-linux-go178-exec-user-process-caused-exec-format-error](https://stackoverflow.com/questions/42494853/standard-init-linux-go178-exec-user-process-caused-exec-format-error)
+- [Multi-arch build and images, the simple way](https://www.docker.com/blog/multi-arch-build-and-images-the-simple-way/)
