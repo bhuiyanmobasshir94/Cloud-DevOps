@@ -75,6 +75,10 @@ To see the log from docker container
 ```
 docker container logs --details container-id
 ```
+If you are restoring a fresh database from another database, You need to dumpdata like this:
+```
+./manage.py dumpdata --exclude auth.permission --exclude contenttypes > db.json
+```
 ```
 cat data_dump.json | docker-compose exec -T app python manage.py loaddata --format=json -
 ```
