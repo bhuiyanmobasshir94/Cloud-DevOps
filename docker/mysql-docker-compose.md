@@ -59,6 +59,8 @@ services:
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: dev
+    ports:
+      - 3306:3306 
     volumes:
       - ./mysqldata:/var/lib/mysql
   adminer:
