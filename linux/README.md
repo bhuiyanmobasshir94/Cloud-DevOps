@@ -40,6 +40,10 @@ Ref: [Resource](https://unix.stackexchange.com/questions/38560/gpu-usage-monitor
 ```
 sudo lshw -c power
 ```
+### Port check 
+```
+sudo ss -lntp
+```
 Ref: [Resource](https://askubuntu.com/questions/1009423/find-the-power-supply-hardware-information-for-a-pc-using-ubuntus-command-line)
 
 ### Nvidia driver installation 
