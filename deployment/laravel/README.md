@@ -5,6 +5,7 @@
 5. [How To Containerize a Laravel Application for Development with Docker Compose on Ubuntu 18.04](https://www.digitalocean.com/community/tutorials/how-to-containerize-a-laravel-application-for-development-with-docker-compose-on-ubuntu-18-04)
 6. [Laravel8 : build production docker image](https://learn2torials.com/a/laravel8-production-docker-image)
 7. [Getting started with Amazon S3 storage in Laravel](https://dev.to/aschmelyun/getting-started-with-amazon-s3-storage-in-laravel-5b6d)
+8. [How to Install Laravel on Ubuntu 20.04 LTS](https://linoxide.com/how-to-install-laravel-on-ubuntu-20-04/)
 
 ```
 composer install --ignore-platform-reqs
