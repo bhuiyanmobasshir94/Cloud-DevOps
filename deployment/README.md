@@ -2,3 +2,4 @@
 2. [Traefik + Let's Encrypt + CloudFlare](https://dev.to/bgalvao/traefik-lets-encrypt-cloudflare-36fj)
 3. [Serving your Django app’s static & media files with S3 and CloudFront (super fast & easy!)](https://www.sebastian-lechner.info/serving-your-django-apps-static-and-media-files-with-s3-and-cloudfront/)
 4. [Dockerize your React app](https://dev.to/karanpratapsingh/dockerize-your-react-app-4j2e)
+5. [Securing a Containerized Django Application with Let's Encrypt](https://testdriven.io/blog/django-lets-encrypt/)
