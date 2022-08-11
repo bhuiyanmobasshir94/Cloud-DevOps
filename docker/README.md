@@ -74,6 +74,7 @@ docker-compose exec api python3 manage.py collectstatic
 To see the log from docker container
 ```
 docker container logs --details container-id
+docker logs container-id -f
 ```
 If you are restoring a fresh database from another database, You need to dumpdata like this:
 ```
