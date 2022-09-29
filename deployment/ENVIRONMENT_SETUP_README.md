@@ -41,6 +41,7 @@ To run docker-compose
 ```
 docker-compose -f local.yml up --build -d
 ```
+Facing issue with docker compose version then go through this [link](https://stackoverflow.com/a/49839172/7195890)
 
 ### Miniconda Installation
 
