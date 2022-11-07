@@ -8,6 +8,24 @@ Get and install docker via script for linux:
  curl -fsSL https://get.docker.com -o get-docker.sh
  sudo sh get-docker.sh
 ```
+### Docker Compose Installation
+```
+sudo apt-get remove docker-compose
+sudo rm /usr/local/bin/docker-compose
+pip uninstall docker-compose
+```
+```
+# curl + grep
+VERSION=$(curl --silent https://api.github.com/repos/docker/compose/releases/latest | grep -Po '"tag_name": "\K.*\d')
+
+# curl + jq
+VERSION=$(curl --silent https://api.github.com/repos/docker/compose/releases/latest | jq .name -r)
+```
+```
+DESTINATION=/usr/local/bin/docker-compose
+sudo curl -L https://github.com/docker/compose/releases/download/${VERSION}/docker-compose-$(uname -s)-$(uname -m) -o $DESTINATION
+sudo chmod 755 $DESTINATION
+```
 
 ### Docker Compose Installation
 
