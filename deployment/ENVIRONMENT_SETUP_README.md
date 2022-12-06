@@ -8,6 +8,9 @@ Get and install docker via script for linux:
  curl -fsSL https://get.docker.com -o get-docker.sh
  sudo sh get-docker.sh
 ```
+```
+sudo usermod -a -G docker $USER
+```
 ### Docker Compose Installation
 ```
 sudo apt-get remove docker-compose
