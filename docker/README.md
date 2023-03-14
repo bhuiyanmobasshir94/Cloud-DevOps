@@ -90,6 +90,7 @@ cat data_dump.json | docker-compose exec -T app python manage.py loaddata --form
 4. [A journey through Django and Docker: hands-on production deployment principles and ideas](https://dev.to/zompro/a-journey-through-django-and-docker-hands-on-production-deployment-principles-and-ideas-17a3)
 5. [Dockerizing Django with Postgres, Gunicorn, and Nginx](https://testdriven.io/blog/dockerizing-django-with-postgres-gunicorn-and-nginx/)
 6. [Deploying Django to AWS with Docker and Let's Encrypt](https://testdriven.io/blog/django-docker-https-aws/)
+7. [How To Use docker exec to Run Commands in a Docker Container](https://www.digitalocean.com/community/tutorials/how-to-use-docker-exec-to-run-commands-in-a-docker-container)
 
 ## Issues
 - [Docker fails with OCI runtime create failed](https://dev.to/aheissenberger/docker-fails-with-oci-runtime-create-failed-4e3l)
