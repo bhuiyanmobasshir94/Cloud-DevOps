@@ -46,6 +46,10 @@ sudo ss -lntp
 ```
 Ref: [Resource](https://askubuntu.com/questions/1009423/find-the-power-supply-hardware-information-for-a-pc-using-ubuntus-command-line)
 
+### Screen command
+Ref: [Resource](https://www.geeksforgeeks.org/screen-command-in-linux-with-examples/)
+
+
 ### Nvidia driver installation 
 
 Ref: [Resource](https://www.cyberciti.biz/faq/ubuntu-linux-install-nvidia-driver-latest-proprietary-driver/)
