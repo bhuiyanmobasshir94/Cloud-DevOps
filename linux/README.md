@@ -58,3 +58,6 @@ Ref: [Resource](https://www.cyberciti.biz/faq/ubuntu-linux-install-nvidia-driver
 ```
 sudo lsof -i:80
 ```
+```
+sudo lsof -i -P -n | grep LISTEN
+```
