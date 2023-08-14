@@ -53,3 +53,8 @@ Ref: [Resource](https://www.geeksforgeeks.org/screen-command-in-linux-with-examp
 ### Nvidia driver installation 
 
 Ref: [Resource](https://www.cyberciti.biz/faq/ubuntu-linux-install-nvidia-driver-latest-proprietary-driver/)
+
+### Port allocation information
+```
+sudo lsof -i:80
+```
