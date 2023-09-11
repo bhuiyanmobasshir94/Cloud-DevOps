@@ -61,3 +61,5 @@ sudo lsof -i:80
 ```
 sudo lsof -i -P -n | grep LISTEN
 ```
+
+1. [How To Open a Port on Linux](https://www.digitalocean.com/community/tutorials/opening-a-port-on-linux)
