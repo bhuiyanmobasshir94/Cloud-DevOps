@@ -5,6 +5,7 @@
 5. [Securing a Containerized Django Application with Let's Encrypt](https://testdriven.io/blog/django-lets-encrypt/)
 6. [Redirection issue - Cloudflare](https://community.cloudflare.com/t/redirecting-www-to-non-www/2949/28)
 7. [How to Install/Uninstall NodeJS on Ubuntu 18.04](https://www.digitalocean.com/community/tutorials/install-uninstall-nodejs-ubuntu)
+8. [Deploying Django to AWS with Docker and Let's Encrypt](https://testdriven.io/blog/django-docker-https-aws/)
 
 #### NVM install 
 Ref: [Resource](https://stackoverflow.com/a/47376491/7195890)
