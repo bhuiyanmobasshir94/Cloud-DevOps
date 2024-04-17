@@ -6,6 +6,7 @@
 6. [Redirection issue - Cloudflare](https://community.cloudflare.com/t/redirecting-www-to-non-www/2949/28)
 7. [How to Install/Uninstall NodeJS on Ubuntu 18.04](https://www.digitalocean.com/community/tutorials/install-uninstall-nodejs-ubuntu)
 8. [Deploying Django to AWS with Docker and Let's Encrypt](https://testdriven.io/blog/django-docker-https-aws/)
+9. [Hosting Django Static Files in AWS using S3 and CloudFront: A Comprehensive Guide](https://levelup.gitconnected.com/hosting-django-static-files-in-aws-using-s3-and-cloudfront-a-comprehensive-guide-2f8f5d0a845c)
 
 #### NVM install 
 Ref: [Resource](https://stackoverflow.com/a/47376491/7195890)
